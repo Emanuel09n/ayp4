@@ -1,7 +1,8 @@
 class Estudiante:
-    def __init__(self,nombre,documento):
-        self.nombre=nombre
-        self.documento=documento
+    def __init__(self, Documento, Nombre):
+        self.Documento = Documento
+        self.Nombre = Nombre
 
-estudiante1=Estudiante("emanuel",1111)
-print(estudiante1.nombre)
+estudiante1 = Estudiante("Alberto", 11111)
+print(estudiante1.Documento)
+print(estudiante1.Nombre)        
